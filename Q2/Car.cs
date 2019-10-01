@@ -24,9 +24,9 @@ namespace Q2
             set { model = value; }
         }
 
-        private string currentspd;
+        private int currentspd;
 
-        public string CurrentSpd
+        public int CurrentSpd
         {
             get { return currentspd; }
             set { currentspd = value; }

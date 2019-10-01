@@ -15,14 +15,14 @@ namespace Q2
 
             c1.Make = "VW";
             c1.Model = "Golf";
-            c1.CurrentSpd = "0";
+            c1.CurrentSpd = 0;
             c1.EngineSize = "1.9";
 
             Car c2 = new Car();
 
             c2.Make = "Opel";
             c2.Model = "Corsa";
-            c2.CurrentSpd = "0";
+            c2.CurrentSpd = 0;
             c2.EngineSize = "1.0";
 
             c1.DisplayCarInfo();
