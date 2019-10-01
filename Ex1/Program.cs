@@ -30,6 +30,9 @@ namespace Ex1
 
                 Console.WriteLine("The {0} {1}, has an egine size of {2}, and is travelling at {3} mph", c2.Make, c2.Model, c2.EngineSize, c2.CurrentSpd);
 
+
+                Console.WriteLine(c1);
+
             }
         }
     }
